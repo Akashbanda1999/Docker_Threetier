@@ -33,7 +33,7 @@ WORKDIR /home/ubuntu/project
 COPY . .
 
 # Expose port 8080 to the outside world
-EXPOSE 3000
+EXPOSE 8080
 
 # Command to run the Go application
 CMD ["go", "run", "main.go"]
