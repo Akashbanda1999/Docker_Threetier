@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bio-icon {
+    border-style: solid;
+    border-color: #4b6cc1;
+    border-width: 4px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#bionavItem1 {
+    color: #9aa5b1;
+    font-family: roboto;
+}
+
+#bionavItem2 {
+    color: #9aa5b1;
+    font-family: roboto;
+}
+
+#bionavItem3 {
+    color: #9aa5b1;
+    font-family: roboto;
+}
+
+#bionavItem4 {
+    color: #9aa5b1;
+    font-family: roboto;
+}
+
+.bioimagebannersec {
+    height: 150px;
+    width: 150px;
+}
+
+.bioheadingbannersec {
+    font-family: roboto;
+    font-size: 35px;
+    color: white;
+}
+
+.biobgbannersec {
+    background-color: #191a1d;
+
+    font-weight: 100;
+    margin-left: 1px;
+}
+
+.bioparabannersec {
+    font-family: roboto;
+    font-size: 15px;
+    color: #9aa5b1;
+    margin-left: 1px;
+}
+
+.biospanbannersec {
+    color: #4b6cc1;
+}
+
+.biospanbutton {
+    background-color: #4b6cc1;
+    height: 30px;
+    width: 130px;
+    color: white;
+    font-size: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.projectsdone-cont {
+    background-color: #323f4b;
+
+}
+
+.projectsdone-heading {
+    color: #cced00;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.projectsdone-para {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Projectsdone-card {
+    height: 380px;
+    width: 265px;
+    background-color: #3e4c59;
+    border-radius: 10px;
+}
+
+.projectsdone-img {
+    height: 200px;
+    width: 270px;
+    border-radius: 10px
+}
+
+.projectsdone-link {
+    color: #cced00;
+    font-size: 9px;
+    font-family: Roboto;
+    margin: 8px;
+}
+
+.projectsdone-heading1 {
+    color: #9aa5b1;
+    font-size: 8px;
+    font-family: Roboto;
+    margin: 8px;
+}
+
+.projectsdone-heading2 {
+    color: #9aa5b1;
+    font-size: 14px;
+    font-family: Roboto;
+    margin: 8px;
+}
+
+.projectsdone-heading3 {
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    margin: 8px;
+}
+
+.projectsdone-heading4 {
+    color: white;
+    font-size: 10px;
+    font-family: Roboto;
+
+}
+
+
+.aboutme-cont {
+    background-color: #323f4b;
+
+}
+
+.aboutme-img {
+    height: 150px;
+    width: 280px;
+}
+
+.aboutme-heading {
+    color: #cced00;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.aboutme-para {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.aboutme-para1 {
+    color: white;
+    font-size: 7px;
+}
+
+.aboutme-cont2 {
+    background-color: #1f2933;
+
+
+}
+
+.aboutme-box {
+    width: 120px;
+    height: 120px;
+    background-color: #323f4b;
+    padding: 11px;
+    margin-top: 4px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+
+.aboutme-boximg {
+    width: 90px;
+    height: 90px;
+
+}
+
+.aboutme-boxheading {
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+
+}
+
+
+.whatido-cont {
+    background-color: #52606d;
+}
+
+.whatido-heading {
+    color: #cced00;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.whatido-para {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.whatido-card {
+    height: 280px;
+    width: 265px;
+    background-color: #3e4c59;
+    border-radius: 10px;
+}
+
+.whatido-img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.whatido-para1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.whatido-para2 {
+    color: #9aa5b1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.whatido-card2 {
+    height: 245px;
+    width: 265px;
+    background-color: #3e4c59;
+    border-radius: 10px;
+}
+
+
+.testimonails-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+
+}
+
+.testimonails-bg {
+    background-color: #323f4b;
+    padding: 20px;
+
+}
+
+.testimonials-cont {
+    background-color: #1f2933;
+    padding: 40px;
+}
+
+.testimonials-para {
+    color: #cced00;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.projectsdone-heading {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.testimonialscard-para {
+    color: white;
+    font-size: 15px;
+}
+
+.testimonialscard-heading {
+    color: #9aa5b1;
+    font-size: 12px;
+}
+
+
+.footersec-cont {
+    background-color: #0d2436;
+}
+
+.footersec-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+
+.footersec-heading {
+    color: #cced00;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.footersec-para {
+    color: #9aa5b1;
+    font-size: 13px;
+
+}
+
+.footersec-cont2 {
+    background-color: #001c32;
+}
