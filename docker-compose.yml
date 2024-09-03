@@ -10,7 +10,7 @@ services:
           bridge
 
     healet:
-      build: .
+      build: ./health/
       ports:
         - '80:80'
       container_name: Healetcontainer
