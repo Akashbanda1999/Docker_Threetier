@@ -12,7 +12,6 @@ services:
 volumes:
     myapp:
     Healet:
-      build: .
       container_name: healetcontainer
       network_mode: 
           bridge
