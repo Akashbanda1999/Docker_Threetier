@@ -3,7 +3,7 @@ services:
       build: .
       ports:
         - '80:80'
-      container_name: Healetcontainer
+      container_name: healetcontainer
       volumes:
         - myapp:/var/www/html/
       network_mode: 
