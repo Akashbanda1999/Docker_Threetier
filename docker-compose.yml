@@ -5,8 +5,8 @@ services:
         - '80:80'
       container_name: Medicontainer
       volumes:
-        - myapp:/var/www/html/
+        - myapp2:/var/www/html/
       network_mode: 
           bridge
 volumes:
-   myapp:
+   myapp2:
