@@ -28,6 +28,7 @@ services:
         - myapp4:/var/www/html/
       network_mode: 
           bridge
+          
 volumes:
    myapp3:
    myapp2:
