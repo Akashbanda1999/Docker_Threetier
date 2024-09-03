@@ -13,5 +13,3 @@ volumes:
     myapp:
     Healet:
       container_name: healetcontainer
-      network_mode: 
-          bridge
