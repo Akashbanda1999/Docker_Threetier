@@ -7,7 +7,7 @@ services:
     volumes:
       - myapp:/var/www/html/
     network_mode: 
-      bridge
+        bridge
 
 volumes:
     myapp:
