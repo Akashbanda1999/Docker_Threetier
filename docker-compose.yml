@@ -1,15 +1,15 @@
 services:
     oxer:
+    Healet:
       build: .
       ports:
-        - '80:80'
-      container_name: oxercontainer-boxer
+        - '80:80' - '81:81'
+      container_names: oxercontainer-boxer 
+                       Healetcontainer
       volumes:
         - myapp:/var/www/html/
       network_mode: 
           bridge
 
 volumes:
-    myapp:
-    Healet:
-      container_name: healetcontainer
+   myapp:
