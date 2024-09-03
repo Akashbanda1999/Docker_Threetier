@@ -3,7 +3,7 @@ services:
       build: .
       ports:
         - '80:80'
-      container_names: oxercontainerboxer
+      container_name: oxercontainer-boxer
       volumes:
         - myapp:/var/www/html/
       network_mode: 
