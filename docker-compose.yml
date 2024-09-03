@@ -21,5 +21,5 @@ Healet:
   container_name: healetcontainer
   volumes:
         - myapp:/var/www/html/
-  ujjnetwork_mode: 
+  network_mode: 
           bridge
