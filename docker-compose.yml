@@ -14,7 +14,5 @@ volumes:
     Healet:
       build: .
       container_name: healetcontainer
-      volumes:
-        - myapp:/var/www/html/
       network_mode: 
           bridge
