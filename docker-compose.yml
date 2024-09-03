@@ -14,12 +14,12 @@ volumes:
 
 
 
-    Healet:
-      build: .
-      ports:
+Healet:
+  build: .
+  ports:
         - '81:81'
-      container_name: healetcontainer
-      volumes:
+  container_name: healetcontainer
+  volumes:
         - myapp:/var/www/html/
-      network_mode: 
+  ujjnetwork_mode: 
           bridge
