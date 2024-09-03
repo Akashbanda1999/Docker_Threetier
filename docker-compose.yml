@@ -25,7 +25,7 @@ services:
         - '82:80'
       container_name: trafficcontainer
       volumes:
-        - myapp3:/var/www/html/
+        - myapp4:/var/www/html/
       network_mode: 
           bridge
 volumes:
