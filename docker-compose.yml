@@ -3,7 +3,7 @@ services:
     Healet:
       build: .
       ports:
-        - '80:80' - '81:81'
+        - '80:80' '81:81'
       container_names: oxercontainer-boxer 
                        Healetcontainer
       volumes:
