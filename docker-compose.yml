@@ -11,3 +11,19 @@ services:
 
 volumes:
     myapp:
+
+
+
+services:
+    Healet:
+      build: .
+      ports:
+        - '81:81'
+      container_name: healetcontainer
+      volumes:
+        - myapp:/var/www/html/
+      network_mode: 
+          bridge
+
+volumes:
+    myapp:
