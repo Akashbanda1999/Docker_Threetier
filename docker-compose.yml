@@ -18,6 +18,18 @@ services:
         - myapp3:/var/www/html/
       network_mode: 
           bridge
+
+    traffic-light:
+      build: ./microservices/traffic-light/
+      ports:
+        - '82:80'
+      container_name: trafficcontainer
+      volumes:
+        - myapp3:/var/www/html/
+      network_mode: 
+          bridge
 volumes:
    myapp3:
    myapp2:
+   myapp4:
+
