@@ -1,6 +1,6 @@
 services:
     oxer:
-    Healet:
+      Healet:
       build: .
       ports:
         - '80:80'
