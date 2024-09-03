@@ -12,7 +12,7 @@ services:
     healet:
       build: ./health/
       ports:
-        - '80:80'
+        - '81:80'
       container_name: Healetcontainer
       volumes:
         - myapp3:/var/www/html/
