@@ -5,8 +5,8 @@ RUN apt install apache2 unzip -y
 RUN rm -rf /var/www/html/index.html
 WORKDIR /var/www/html/
 #ADD https://www.free-css.com/assets/files/free-css-templates/download/page296/healet.zip .
-COPY oxer.zip .
-RUN unzip oxer.zip
-RUN mv oxer-html/*  .
+COPY Medi.zip .
+RUN unzip Medi.zip
+RUN mv Medi-html/*  .
 EXPOSE 80
 CMD ["apache2ctl" , "-DFOREGROUND"]
