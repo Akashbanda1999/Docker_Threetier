@@ -1,9 +1,9 @@
 services:
-    oxer:
+    medi:
       build: .
       ports:
         - '80:80'
-      container_name: oxercontainer
+      container_name: Medicontainer
       volumes:
         - myapp:/var/www/html/
       network_mode: 
