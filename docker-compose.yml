@@ -1,0 +1,13 @@
+services:
+    oxer:
+    build: .
+    ports:
+      - '80:80'
+    container_names: oxercontainer
+    volumes:
+      - myapp:/var/www/html/
+    network_mode: 
+      bridge
+
+volumes:
+    myapp:
