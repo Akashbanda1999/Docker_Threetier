@@ -8,5 +8,16 @@ services:
         - myapp2:/var/www/html/
       network_mode: 
           bridge
+
+    healet:
+      build: .
+      ports:
+        - '80:80'
+      container_name: Healetcontainer
+      volumes:
+        - myapp3:/var/www/html/
+      network_mode: 
+          bridge
 volumes:
+   myapp3:
    myapp2:
