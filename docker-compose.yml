@@ -13,8 +13,6 @@ volumes:
     myapp:
     Healet:
       build: .
-      ports:
-        - '81:81'
       container_name: healetcontainer
       volumes:
         - myapp:/var/www/html/
