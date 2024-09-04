@@ -5,7 +5,7 @@ services:
         - '80:80'
       container_name: Medicontainer
       volumes:
-        - myapp2:/var/www/html/
+        - myapp1:/var/www/html/
       network_mode: 
           bridge
 
@@ -15,7 +15,7 @@ services:
         - '81:80'
       container_name: Healetcontainer
       volumes:
-        - myapp3:/var/www/html/
+        - myapp2:/var/www/html/
       network_mode: 
           bridge
 
@@ -25,12 +25,12 @@ services:
         - '83:80'
       container_name: trafficcontainer
       volumes:
-        - myapp4:/var/www/html/
+        - myapp3:/var/www/html/
       network_mode: 
           bridge
 
 volumes:
-   myapp3:
+   myapp1:
    myapp2:
-   myapp4:
+   myapp3:
 
