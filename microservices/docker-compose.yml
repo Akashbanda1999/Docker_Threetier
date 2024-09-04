@@ -1,0 +1,96 @@
+services:
+    counter:
+      build: .
+      ports:
+        - '81:80'
+      container_name: counter-container
+      volumes:
+        - myapp1:/var/www/html/
+      network_mode: 
+          bridge
+
+services:
+    index:
+      build: .
+      ports:
+        - '80:80'
+      container_name: index-container
+      volumes:
+        - myapp2:/var/www/html/
+      network_mode: 
+          bridge
+
+services:
+    number-add:
+      build: .
+      ports:
+        - '82:80'
+      container_name: number-add-container
+      volumes:
+        - myapp3:/var/www/html/
+      network_mode: 
+          bridge
+
+services:
+    puppy:
+      build: .
+      ports:
+        - '83:80'
+      container_name: puppy-container
+      volumes:
+        - myapp4:/var/www/html/
+      network_mode: 
+          bridge
+
+services:
+    season:
+      build: .
+      ports:
+        - '84:80'
+      container_name: season-container
+      volumes:
+        - myapp5:/var/www/html/
+      network_mode: 
+          bridge
+
+services:
+    todo:
+      build: .
+      ports:
+        - '85:80'
+      container_name: todo-container
+      volumes:
+        - myapp6:/var/www/html/
+      network_mode: 
+          bridge
+
+services:
+    traffic:
+      build: .
+      ports:
+        - '86:80'
+      container_name: traffic-container
+      volumes:
+        - myapp7:/var/www/html/
+      network_mode: 
+          bridge
+
+services:
+    vr-website:
+      build: .
+      ports:
+        - '87:80'
+      container_name: vr-website-container
+      volumes:
+        - myapp8:/var/www/html/
+      network_mode: 
+          bridge
+volumes:
+   myapp1:
+   myapp2:
+   myapp3:
+   myapp4:
+   myapp5:
+   myapp6:
+   myapp7:
+   myapp8:
