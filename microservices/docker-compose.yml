@@ -85,6 +85,17 @@ services:
         - myapp8:/var/www/html/
       network_mode: 
           bridge
+
+    mycodingprofileRWD:
+      build: ./mycodingprofileRWD/
+      ports:
+        - '88:80'
+      container_name: mycodingprofileRWD-container
+      volumes:
+        - myapp9:/var/www/html/
+      network_mode: 
+          bridge
+
 volumes:
    myapp1:
    myapp2:
@@ -94,3 +105,4 @@ volumes:
    myapp6:
    myapp7:
    myapp8:
+   myapp9:
