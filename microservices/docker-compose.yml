@@ -10,17 +10,6 @@ services:
           bridge
 
 
-    index:
-      build: ./index/
-      ports:
-        - '80:80'
-      container_name: index-container
-      volumes:
-        - myapp2:/var/www/html/
-      network_mode: 
-          bridge
-
-
     number-add:
       build: ./number-addition/
       ports:
