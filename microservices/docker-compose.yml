@@ -86,11 +86,11 @@ services:
       network_mode: 
           bridge
 
-    mycodingprofileRWD:
+    mycodingprofilerwd:
       build: ./mycodingprofileRWD/
       ports:
         - '88:80'
-      container_name: mycodingprofileRWD-container
+      container_name: mycodingprofilerwd-container
       volumes:
         - myapp9:/var/www/html/
       network_mode: 
