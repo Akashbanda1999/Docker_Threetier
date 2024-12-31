@@ -5,5 +5,5 @@ RUN apt install nginx -y
 RUN rm -rf /var/www/html/index.html
 WORKDIR /var/www/html/
 COPY . .
-EXPOSE 80
+EXPOSE 8080
 CMD ["nginx", "-g", "daemon off;"]
