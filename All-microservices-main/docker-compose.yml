@@ -90,17 +90,6 @@ services:
        network_mode:
           bridge
 
-           
-    mario:
-       build: ./mario-game/
-       ports:
-         - '89:80'
-       container_name: mario-container
-       volumes: 
-        - myapps10:/usr/share/nginx/html
-       network_mode:
-          bridge
-
 
 volumes: 
     myapps12:         
@@ -112,5 +101,5 @@ volumes:
     myapps7: 
     myapps8:
     myapps9:
-    myapps10:
+
 
