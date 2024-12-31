@@ -11,7 +11,6 @@ RUN mv mediplus-lite/* .
 EXPOSE 80
 CMD ["apache2ctl" , "-DFOREGROUND"]
 
----
 
 FROM ubuntu:latest
 LABEL DEVOPSENGG="Akash"
