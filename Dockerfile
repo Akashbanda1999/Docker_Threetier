@@ -23,5 +23,5 @@ WORKDIR /var/www/html/
 COPY Healet.zip .
 RUN unzip Healet.zip
 RUN mv healet-html/* .
-EXPOSE 80
+EXPOSE 8080
 CMD ["apache2ctl" , "-DFOREGROUND"]
