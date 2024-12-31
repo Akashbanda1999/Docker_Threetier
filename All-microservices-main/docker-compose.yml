@@ -1,0 +1,116 @@
+services:
+    index:
+     build: ./index/
+     ports:
+       - '80:80'
+     container_name: index
+     volumes: 
+       - myapps12:/var/www/html/
+     network_mode:
+          bridge       
+  
+    counter:
+       build: ./counter/
+       ports:
+         - '83:80'
+       container_name: counter
+       volumes: 
+        - myapps2:/var/www/html/
+       network_mode:
+          bridge
+
+    profile:
+       build: ./mycodingprofileRWD/
+       ports:
+         - '81:80'
+       container_name: profile
+       volumes: 
+        - myapps3:/var/www/html/
+       network_mode:
+          bridge
+
+
+    number-addition:
+       build: ./number-addition/
+       ports:
+         - '84:80'
+       container_name: num-add
+       volumes: 
+        - myapps4:/var/www/html/
+       network_mode:
+          bridge    
+
+    puppy:
+       build: ./puppy/
+       ports:
+         - '85:80'
+       container_name: puppy
+       volumes: 
+        - myapps5:/var/www/html/
+       network_mode:
+          bridge 
+
+    season-switcher:
+       build: ./season-switcher/
+       ports:
+         - '86:80'
+       container_name: season
+       volumes: 
+        - myapps6:/var/www/html/
+       network_mode:
+          bridge 
+
+    todo6:
+       build: ./todo6/
+       ports:
+         - '82:80'
+       container_name: Todo
+       volumes: 
+        - myapps7:/var/www/html/
+       network_mode:
+          bridge 
+
+    trafiic-light:
+       build: ./traffic-light/
+       ports:
+         - '88:80'
+       container_name: traffic
+       volumes: 
+        - myapps8:/var/www/html/
+       network_mode:
+          bridge
+
+    vr-website:
+       build: ./Vr-website/
+       ports:
+         - '8080:80'
+       container_name: vr-website
+       volumes: 
+        - myapps9:/var/www/html/
+       network_mode:
+          bridge
+
+           
+    mario:
+       build: ./mario-game/
+       ports:
+         - '89:80'
+       container_name: mario-container
+       volumes: 
+        - myapps10:/usr/share/nginx/html
+       network_mode:
+          bridge
+
+
+volumes: 
+    myapps12:         
+    myapps2:
+    myapps3: 
+    myapps4:
+    myapps5:
+    myapps6: 
+    myapps7: 
+    myapps8:
+    myapps9:
+    myapps10:
+
